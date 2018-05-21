@@ -1,0 +1,104 @@
+
+.body {
+	margin: auto;
+	width: 60%;
+}
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.news-header {
+	display: flex;
+	width: 75%;
+	display: flex;
+	justify-content: space-between;
+}
+.yandex {	
+	width: 100%;
+	margin: auto;
+}
+.sign {
+	color: #A2AAAF;
+	font-size: 14px;
+}
+.geolocation {
+	position: absolute;
+	top: 0;
+	left: 30px;
+}
+.login {
+	position: absolute;
+	top: 10px;
+	right: 50px;
+	border: 1px solid #EBEBEB;
+	width: 200px;
+	padding-left: 15px;
+	border-radius: 5px;
+}
+.setting {
+	position: absolute;
+	top: 15px;
+	right: 300px;
+}
+.title {
+	color: #3F66BB;
+	font-size: 20px;
+}
+.text {
+	font-size: 14px;
+}
+.money {
+	display: inline-block;
+}
+.column {
+	width: 27%;
+}
+.yandex-input {
+	width: 60%;
+	height: 25px;
+	border: 1px solid #FEDB4D;
+}
+.find {
+	width: 60px;
+	height: 30px;
+	display: inline-block;
+	background-color: #FEDB4D;
+	left: -10px;
+	position: relative;
+	border: none;
+}
+.find::after {
+    content: ''; 
+    position: absolute;
+    right: -28px; top: 0px;
+    border: 15px solid transparent;
+    border-left: 14px solid #FEDB4D;
+   }
+.yandex-div {
+	position: relative;
+}
+.logo-img {
+	position: absolute;
+	left: -12%;	
+	bottom: 0;
+}
+.currency {
+	font-weight: bold;
+}
+.links {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+	line-height: 30px;
+}
+.link {
+	margin-bottom: 10px;
+}
+.money-div {
+	margin-left: 40px;
+}
+li {
+	list-style-type: none; 
+}
+
